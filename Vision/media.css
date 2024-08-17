@@ -1,0 +1,56 @@
+
+    @media screen and (max-width: 600px ){
+        .logo{
+            padding: 0rem 1rem;
+            border: 1pxs solid black;
+        }
+        .left-side a{
+            font-size: 20px;
+        }
+        .right-side{
+            /* border: 1px solid red; */
+            width: 10rem;
+        }
+        .heading{
+            font-size: 2rem;
+            padding: 1rem 9rem;
+        }
+    }
+    @media screen and (min-width: 600px ) and (max-width: 837px){
+        .right-side{
+            /* border: 1px solid red; */
+            width: 8rem;
+        }
+    }
+    
+    @media screen and (min-width: 360px ) and (max-width: 600px){
+        .right-side{
+            /* border: 1px solid red; */
+            width: 11rem;
+            text-align: right;
+        }
+        .filter-title{
+            padding: 1rem 1rem;
+        }
+        .filter-chosen{
+            width: 97%;
+            padding: 1rem 1rem;
+
+        }
+        .chosen-card{
+            padding: 0rem 0.3rem;
+            font-size: 6px;
+        }
+        .Jobs-container{
+            width: 100%;
+            height: fit-content;
+            padding: 0rem 1rem;
+            margin: 0rem 1rem;
+        }
+       .job-cards-container{
+            width: 100%;
+        }
+        .job-show{
+            display: none;
+        }
+    }
